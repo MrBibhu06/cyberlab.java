@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class math {
+    public static void main(String[] args) {
+        int sum,sub,mul,div,mod,square,a,b;
+        System.out.println("CALCULATOR");
+        System.out.println("enter your two numbers=");
+        Scanner obj= new Scanner(System.in);
+        a=obj.nextInt();
+        b=obj.nextInt();
+        sum=a+b;
+        sub=a-b;
+        mul=a*b;
+        div=a/b;
+        mod=a%b;
+        System.out.println("the sum of a&b is"+sum);
+        System.out.println("the sub of a&b is"+sub);
+        System.out.println("the mul of a&b is"+mul);
+        System.out.println("the div of a&b is"+div);
+        System.out.println("the mod of a&b is"+mod);
+    }
+}
